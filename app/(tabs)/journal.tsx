@@ -227,7 +227,7 @@ export default function JournalScreen() {
 const styles = StyleSheet.create({
     container: { flex: 1, backgroundColor: '#0d1117', padding: 16 },
     topBar: { flexDirection: 'row', gap: 10, marginBottom: 14 },
-    searchInput: { flex: 1, backgroundColor: '#161b22', color: '#f0f6fc', paddingHorizontal: 12, py: 10, borderRadius: 8, borderWidth: 1, borderColor: '#30363d' },
+    searchInput: { flex: 1, backgroundColor: '#161b22', color: '#f0f6fc', paddingHorizontal: 12, paddingVertical: 10, borderRadius: 8, borderWidth: 1, borderColor: '#30363d' },
     addBtn: { backgroundColor: '#238636', paddingHorizontal: 16, justifyContent: 'center', borderRadius: 8 },
     addBtnText: { color: '#ffffff', fontWeight: 'bold', fontSize: 13 },
     tradeCard: { backgroundColor: '#161b22', padding: 14, borderRadius: 10, marginBottom: 10, borderWidth: 1, borderColor: '#30363d' },
