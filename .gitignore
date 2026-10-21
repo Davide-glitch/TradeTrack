@@ -39,3 +39,11 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# local databases
+*.db
+*.db-*
+
+# IDE & editors
+.vscode/
+.claude/
